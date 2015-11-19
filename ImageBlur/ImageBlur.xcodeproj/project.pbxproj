@@ -13,8 +13,8 @@
 		10282FB91BFD614900A82C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10282FB71BFD614900A82C4A /* Main.storyboard */; };
 		10282FBB1BFD614900A82C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10282FBA1BFD614900A82C4A /* Assets.xcassets */; };
 		10282FBE1BFD614900A82C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10282FBC1BFD614900A82C4A /* LaunchScreen.storyboard */; };
-		10282FC71BFD617100A82C4A /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 10282FC61BFD617100A82C4A /* UIImage+ImageEffects.m */; };
 		10282FC91BFD617900A82C4A /* normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10282FC81BFD617900A82C4A /* normal@2x.png */; };
+		10282FCD1BFD6AB700A82C4A /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 10282FCC1BFD6AB700A82C4A /* UIImage+ImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +28,9 @@
 		10282FBA1BFD614900A82C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10282FBD1BFD614900A82C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10282FBF1BFD614900A82C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10282FC51BFD617100A82C4A /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		10282FC61BFD617100A82C4A /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		10282FC81BFD617900A82C4A /* normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normal@2x.png"; sourceTree = "<group>"; };
+		10282FCB1BFD6AB700A82C4A /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		10282FCC1BFD6AB700A82C4A /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +63,11 @@
 		10282FAD1BFD614900A82C4A /* ImageBlur */ = {
 			isa = PBXGroup;
 			children = (
+				10282FCA1BFD6AB700A82C4A /* UIImage+ImageEffects */,
 				10282FB11BFD614900A82C4A /* AppDelegate.h */,
 				10282FB21BFD614900A82C4A /* AppDelegate.m */,
 				10282FB41BFD614900A82C4A /* ViewController.h */,
 				10282FB51BFD614900A82C4A /* ViewController.m */,
-				10282FC51BFD617100A82C4A /* UIImage+ImageEffects.h */,
-				10282FC61BFD617100A82C4A /* UIImage+ImageEffects.m */,
 				10282FC81BFD617900A82C4A /* normal@2x.png */,
 				10282FB71BFD614900A82C4A /* Main.storyboard */,
 				10282FBA1BFD614900A82C4A /* Assets.xcassets */,
@@ -85,6 +84,15 @@
 				10282FAF1BFD614900A82C4A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10282FCA1BFD6AB700A82C4A /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				10282FCB1BFD6AB700A82C4A /* UIImage+ImageEffects.h */,
+				10282FCC1BFD6AB700A82C4A /* UIImage+ImageEffects.m */,
+			);
+			path = "UIImage+ImageEffects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10282FC71BFD617100A82C4A /* UIImage+ImageEffects.m in Sources */,
+				10282FCD1BFD6AB700A82C4A /* UIImage+ImageEffects.m in Sources */,
 				10282FB61BFD614900A82C4A /* ViewController.m in Sources */,
 				10282FB31BFD614900A82C4A /* AppDelegate.m in Sources */,
 				10282FB01BFD614900A82C4A /* main.m in Sources */,
